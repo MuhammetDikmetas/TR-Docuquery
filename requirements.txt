@@ -1,0 +1,36 @@
+# --- API Sunucusu ---
+fastapi>=0.115
+uvicorn[standard]>=0.30
+python-multipart>=0.0.9
+aiofiles>=24.1
+python-dotenv>=1.0
+pydantic>=2.7
+requests>=2.32
+
+# --- OCR & Görüntü İşleme ---
+easyocr>=1.7.2
+opencv-python-headless>=4.10
+numpy>=1.26
+PyMuPDF>=1.24
+
+# --- Embedding & Vektör Veritabanı (RAG) ---
+sentence-transformers>=3.0
+transformers>=4.44
+torch>=2.3
+chromadb>=1.0
+
+# --- LLM & Agent (Claude + LangGraph) ---
+anthropic>=0.40
+langchain-core>=0.3
+langchain-anthropic>=0.3
+langchain-community>=0.3
+langgraph>=0.2
+tenacity>=9.0
+ddgs>=9.0
+
+# --- Demo Arayüzü ---
+streamlit>=1.38
+
+# --- Google Takvim Entegrasyonu ---
+google-api-python-client>=2.140
+google-auth>=2.30

@@ -1,0 +1,42 @@
+# Node & Python Ortamları
+node_modules/
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+
+# Frontend derleme çıktısı
+dist/
+
+# Çevresel Değişkenler (Gizli Bilgiler)
+.env
+.env.*
+!.env.example
+
+# Kullanıcı Verileri (kişisel bilgi içerir)
+data/
+notes.json
+
+# Veritabanı ve Loglar
+chroma_db/
+chroma_db_store/
+app.log
+*.log
+
+# İşlenmiş Çıktılar
+processed_documents.json
+processed_files_log.json
+
+# Google Takvim API
+credentials.json
+token.json
+
+# Editör / Sistem
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Arşiv dosyaları
+*.archived
